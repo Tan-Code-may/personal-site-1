@@ -55,16 +55,39 @@ body {
   float: left;
   margin-right: 2rem;
 }
+
+.experience-photo {
+  width: 30%;
+  float: left;
+  margin-right: 2rem;
+}
+
 .physics {
   width: 30%;
   float: right;
   margin-left: 2rem;
 }
+
+
+.project-photo-vardaan{
+  width: 30%;
+  float: right;
+  margin-left: 2rem;
+}
+
+.project-photo-auction{
+  width: 30%;
+  float: left;
+  margin-right: 2rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
 a {
   color: #11999e;
   text-decoration: none;
 }
-.skill-row {
+.skill-row, .experience-row, .project-row{
   width: 50%;
   margin: 100px auto;
   text-align: left;
@@ -121,3 +144,4 @@ hr {
 a:hover {
   color: #eaf6f6;
 }
+
